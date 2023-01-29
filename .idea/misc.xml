@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/citizen-service/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/vaccination-center/pom.xml" />
+        <option value="$PROJECT_DIR$/api-Gateway/pom.xml" />
       </list>
     </option>
   </component>

@@ -4,20 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13c0c766-0acd-45f5-b428-871344d2ea5d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vaccination-center/src/main/java/com/yogitech/vaccination/center/controller/VaccinationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vaccination-center/src/main/java/com/yogitech/vaccination/center/entity/VaccinationCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vaccination-center/src/main/java/com/yogitech/vaccination/center/model/Citizen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vaccination-center/src/main/java/com/yogitech/vaccination/center/model/RequiredResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vaccination-center/src/main/java/com/yogitech/vaccination/center/repository/VaccinationRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vaccination-center/src/main/java/com/yogitech/vaccination/center/service/VaccinationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vaccination-center/src/main/java/com/yogitech/vaccination/center/service/VaccinationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vaccination-center/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="13c0c766-0acd-45f5-b428-871344d2ea5d" name="Changes" comment="feat-3: uncommit file">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_13_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_2_8_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaccination-center/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vaccination-center/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaccination-center/src/main/java/com/yogitech/vaccination/center/VaccinationCenterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/vaccination-center/src/main/java/com/yogitech/vaccination/center/VaccinationCenterApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaccination-center/src/main/java/com/yogitech/vaccination/center/controller/VaccinationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/vaccination-center/src/main/java/com/yogitech/vaccination/center/controller/VaccinationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaccination-center/src/main/java/com/yogitech/vaccination/center/service/VaccinationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/vaccination-center/src/main/java/com/yogitech/vaccination/center/service/VaccinationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaccination-center/src/main/java/com/yogitech/vaccination/center/service/VaccinationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/vaccination-center/src/main/java/com/yogitech/vaccination/center/service/VaccinationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaccination-center/target/classes/com/yogitech/vaccination/center/VaccinationCenterApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/vaccination-center/target/classes/com/yogitech/vaccination/center/VaccinationCenterApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaccination-center/vaccination-center.iml" beforeDir="false" afterPath="$PROJECT_DIR$/vaccination-center/vaccination-center.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +75,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "/home/yogesh/Desktop/microservices/microservices-practice-project/vaccination-center"
   }
 }]]></component>
@@ -70,7 +84,7 @@
       <recent name="com.yogitech.vaccination.center.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VaccinationCenterApplication">
+  <component name="RunManager" selected="Application.EurekaServerApplication">
     <configuration name="CitizenServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yogitech.citizen.service.CitizenServiceApplication" />
       <module name="citizen-service" />
@@ -113,8 +127,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.VaccinationCenterApplication" />
-        <item itemvalue="Application.CitizenServiceApplication" />
         <item itemvalue="Application.EurekaServerApplication" />
+        <item itemvalue="Application.CitizenServiceApplication" />
         <item itemvalue="Application.CitizenServiceApplication" />
       </list>
     </recent_temporary>
@@ -135,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674928785076</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat-3: uncommit file">
+      <created>1674934213369</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674934213369</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,14 +172,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat-2: eurekas-server configure" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat-2: eurekas-server configure" />
+    <MESSAGE value="feat-3: uncommit file" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat-3: uncommit file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/vaccination-center/src/main/java/com/yogitech/vaccination/center/controller/VaccinationController.java</url>
-          <line>17</line>
+          <line>18</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

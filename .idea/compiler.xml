@@ -7,12 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="api-Gateway" />
         <module name="citizen-service" />
         <module name="eureka-server" />
         <module name="vaccination-center" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api-Gateway" target="11" />
       <module name="citizen-service" target="11" />
       <module name="eureka-server" target="11" />
       <module name="vaccination-center" target="11" />
@@ -20,6 +22,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-Gateway" options="-parameters" />
       <module name="citizen-service" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="vaccination-center" options="-parameters" />

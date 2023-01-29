@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/api-Gateway/api-Gateway.iml" filepath="$PROJECT_DIR$/api-Gateway/api-Gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/citizen-service/citizen-service.iml" filepath="$PROJECT_DIR$/citizen-service/citizen-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/microservices-practice-project.iml" filepath="$PROJECT_DIR$/.idea/microservices-practice-project.iml" />

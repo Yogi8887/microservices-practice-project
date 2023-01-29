@@ -1,5 +1,6 @@
 package com.yogitech.vaccination.center.controller;
 
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.yogitech.vaccination.center.entity.VaccinationCenter;
 import com.yogitech.vaccination.center.model.RequiredResponse;
 import com.yogitech.vaccination.center.service.VaccinationService;
@@ -19,10 +20,15 @@ public class VaccinationController {
         return new ResponseEntity<VaccinationCenter>(vaccinationCente, HttpStatus.OK);
     }
     @GetMapping("/id/{id}")
+    @HystrixCommand(fallbackMethod = "handleCitizenDownTime")
     public ResponseEntity<RequiredResponse> getAllDataBasedOnCenterId(@PathVariable Integer id){
 
         RequiredResponse requiredResponse = vaccinationService.getAll(id);
         // then get all citizen register to vaccination center
         return new ResponseEntity<RequiredResponse>(requiredResponse, HttpStatus.OK);
     }
-}
+    public ResponseEntity<RequiredResponse> handleCitizenDownTime(@PathVariable Integer id) {
+        RequiredResponse requiredResponse = vaccinationService.handleCitizenDownTime(id);
+        return new ResponseEntity<RequiredResponse>(requiredResponse, HttpStatus.OK);
+    }
+    }

@@ -29,4 +29,12 @@ public class VaccinationServiceImpl implements VaccinationService{
         requiredResponse.setCitizens(citizenList);
         return requiredResponse;
     }
+
+    @Override
+    public RequiredResponse handleCitizenDownTime(Integer id) {
+        RequiredResponse requiredResponse = new RequiredResponse();
+        VaccinationCenter vaccinationCenter = vaccinationRepo.findById(id).get();
+        requiredResponse.setCenter(vaccinationCenter);
+        return requiredResponse;
+    }
 }

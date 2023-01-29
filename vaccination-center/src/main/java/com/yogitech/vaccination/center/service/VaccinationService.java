@@ -8,4 +8,6 @@ public interface VaccinationService {
     VaccinationCenter add(VaccinationCenter vaccinationCenter);
 
     RequiredResponse getAll(Integer id);
+
+    RequiredResponse handleCitizenDownTime(Integer id);
 }
